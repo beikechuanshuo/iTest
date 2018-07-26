@@ -51,6 +51,14 @@
 		C5877DB620E614AF00A2533D /* videorecordsend@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5877DAC20E614AF00A2533D /* videorecordsend@3x.png */; };
 		C5C1080C207240A900345417 /* HMessageCommonModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5C10807207240A900345417 /* HMessageCommonModel.mm */; };
 		C5D02B3321095D3C009C9EE8 /* HNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B3221095D3B009C9EE8 /* HNavigationController.m */; };
+		C5D02B3821095E6D009C9EE8 /* QIYIGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B3421095E6C009C9EE8 /* QIYIGIFImageView.m */; };
+		C5D02B3921095E6D009C9EE8 /* QIYIGifImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B3521095E6C009C9EE8 /* QIYIGifImage.m */; };
+		C5D02B492109606F009C9EE8 /* QIYIHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B3C2109606F009C9EE8 /* QIYIHeartView.m */; };
+		C5D02B4A2109606F009C9EE8 /* NNLHashids.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B3F2109606F009C9EE8 /* NNLHashids.m */; };
+		C5D02B4B2109606F009C9EE8 /* hashids.c in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B432109606F009C9EE8 /* hashids.c */; };
+		C5D02B4C2109606F009C9EE8 /* QIYIShowARResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B442109606F009C9EE8 /* QIYIShowARResultView.m */; };
+		C5D02B4D2109606F009C9EE8 /* QIYITabItemBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B462109606F009C9EE8 /* QIYITabItemBtn.m */; };
+		C5D02B4E2109606F009C9EE8 /* QIYIScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D02B482109606F009C9EE8 /* QIYIScanQRCodeViewController.m */; };
 		C5ED4A6B20EA33F800E23187 /* libWCDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ED4A6A20EA33F800E23187 /* libWCDB.a */; };
 		C5ED4A6E20EA34D300E23187 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ED4A6D20EA34D300E23187 /* libz.tbd */; };
 		C5F8AC3F20E5D98000C4D331 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F8AC3E20E5D98000C4D331 /* CoreMedia.framework */; };
@@ -162,6 +170,22 @@
 		C5C1080B207240A900345417 /* HMessageCommonModel+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMessageCommonModel+WCTTableCoding.h"; sourceTree = "<group>"; };
 		C5D02B3121095D3B009C9EE8 /* HNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNavigationController.h; sourceTree = "<group>"; };
 		C5D02B3221095D3B009C9EE8 /* HNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNavigationController.m; sourceTree = "<group>"; };
+		C5D02B3421095E6C009C9EE8 /* QIYIGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYIGIFImageView.m; sourceTree = "<group>"; };
+		C5D02B3521095E6C009C9EE8 /* QIYIGifImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYIGifImage.m; sourceTree = "<group>"; };
+		C5D02B3621095E6D009C9EE8 /* QIYIGifImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYIGifImage.h; sourceTree = "<group>"; };
+		C5D02B3721095E6D009C9EE8 /* QIYIGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYIGIFImageView.h; sourceTree = "<group>"; };
+		C5D02B3B2109606F009C9EE8 /* QIYITabItemBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYITabItemBtn.h; sourceTree = "<group>"; };
+		C5D02B3C2109606F009C9EE8 /* QIYIHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYIHeartView.m; sourceTree = "<group>"; };
+		C5D02B3D2109606F009C9EE8 /* QIYIScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYIScanQRCodeViewController.h; sourceTree = "<group>"; };
+		C5D02B3F2109606F009C9EE8 /* NNLHashids.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLHashids.m; sourceTree = "<group>"; };
+		C5D02B402109606F009C9EE8 /* NNLHashids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLHashids.h; sourceTree = "<group>"; };
+		C5D02B422109606F009C9EE8 /* hashids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashids.h; sourceTree = "<group>"; };
+		C5D02B432109606F009C9EE8 /* hashids.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashids.c; sourceTree = "<group>"; };
+		C5D02B442109606F009C9EE8 /* QIYIShowARResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYIShowARResultView.m; sourceTree = "<group>"; };
+		C5D02B452109606F009C9EE8 /* QIYIHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYIHeartView.h; sourceTree = "<group>"; };
+		C5D02B462109606F009C9EE8 /* QIYITabItemBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYITabItemBtn.m; sourceTree = "<group>"; };
+		C5D02B472109606F009C9EE8 /* QIYIShowARResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIYIShowARResultView.h; sourceTree = "<group>"; };
+		C5D02B482109606F009C9EE8 /* QIYIScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIYIScanQRCodeViewController.m; sourceTree = "<group>"; };
 		C5ED4A6620EA2E7900E23187 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C5ED4A6A20EA33F800E23187 /* libWCDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libWCDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ED4A6D20EA34D300E23187 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -232,6 +256,7 @@
 		C55BA5D21FFE307B00D8B0D9 /* iTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5D02B3A2109606F009C9EE8 /* 临时代码未整理 */,
 				C5F8AC6920E5DB5800C4D331 /* Reachability */,
 				C5F8AC4920E5DABA00C4D331 /* HDevice */,
 				C5F8AC4520E5DA2D00C4D331 /* HHUD */,
@@ -319,6 +344,10 @@
 		C56EB98220E5D80400227D34 /* HExtension */ = {
 			isa = PBXGroup;
 			children = (
+				C5D02B3621095E6D009C9EE8 /* QIYIGifImage.h */,
+				C5D02B3521095E6C009C9EE8 /* QIYIGifImage.m */,
+				C5D02B3721095E6D009C9EE8 /* QIYIGIFImageView.h */,
+				C5D02B3421095E6C009C9EE8 /* QIYIGIFImageView.m */,
 				C5D02B3121095D3B009C9EE8 /* HNavigationController.h */,
 				C5D02B3221095D3B009C9EE8 /* HNavigationController.m */,
 				C5F8AC6D20E5DBE900C4D331 /* HAuthorizationCenter.h */,
@@ -362,6 +391,41 @@
 				C5877DAC20E614AF00A2533D /* videorecordsend@3x.png */,
 			);
 			path = Recource;
+			sourceTree = "<group>";
+		};
+		C5D02B3A2109606F009C9EE8 /* 临时代码未整理 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02B3B2109606F009C9EE8 /* QIYITabItemBtn.h */,
+				C5D02B3C2109606F009C9EE8 /* QIYIHeartView.m */,
+				C5D02B3D2109606F009C9EE8 /* QIYIScanQRCodeViewController.h */,
+				C5D02B3E2109606F009C9EE8 /* Hashids */,
+				C5D02B442109606F009C9EE8 /* QIYIShowARResultView.m */,
+				C5D02B452109606F009C9EE8 /* QIYIHeartView.h */,
+				C5D02B462109606F009C9EE8 /* QIYITabItemBtn.m */,
+				C5D02B472109606F009C9EE8 /* QIYIShowARResultView.h */,
+				C5D02B482109606F009C9EE8 /* QIYIScanQRCodeViewController.m */,
+			);
+			path = "临时代码未整理";
+			sourceTree = SOURCE_ROOT;
+		};
+		C5D02B3E2109606F009C9EE8 /* Hashids */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02B3F2109606F009C9EE8 /* NNLHashids.m */,
+				C5D02B402109606F009C9EE8 /* NNLHashids.h */,
+				C5D02B412109606F009C9EE8 /* hashids.c */,
+			);
+			path = Hashids;
+			sourceTree = "<group>";
+		};
+		C5D02B412109606F009C9EE8 /* hashids.c */ = {
+			isa = PBXGroup;
+			children = (
+				C5D02B422109606F009C9EE8 /* hashids.h */,
+				C5D02B432109606F009C9EE8 /* hashids.c */,
+			);
+			path = hashids.c;
 			sourceTree = "<group>";
 		};
 		C5F8AC4520E5DA2D00C4D331 /* HHUD */ = {
@@ -565,6 +629,7 @@
 			files = (
 				C56EB97F20E5D7AF00227D34 /* AVSETrimCommand.m in Sources */,
 				C56EB96B20E5D73900227D34 /* HRecordVideoManager.m in Sources */,
+				C5D02B3921095E6D009C9EE8 /* QIYIGifImage.m in Sources */,
 				C5F8AC5F20E5DABB00C4D331 /* SFHFKeychainUtils.m in Sources */,
 				C56EB99A20E5D80400227D34 /* NSData+Extension.m in Sources */,
 				C56EB9A020E5D80400227D34 /* UIColor+Extension.m in Sources */,
@@ -573,9 +638,14 @@
 				C56EB99D20E5D80400227D34 /* UIImage+Extension.m in Sources */,
 				C56EB96720E5D73900227D34 /* HRecordVideoEncoder.m in Sources */,
 				C56EB99920E5D80400227D34 /* UIApplication+Extension.m in Sources */,
+				C5D02B4C2109606F009C9EE8 /* QIYIShowARResultView.m in Sources */,
+				C5D02B4B2109606F009C9EE8 /* hashids.c in Sources */,
 				C53C75E820591C83003E6825 /* TestViewController.m in Sources */,
+				C5D02B4D2109606F009C9EE8 /* QIYITabItemBtn.m in Sources */,
 				C56EB9A120E5D80400227D34 /* NSString+Extension.m in Sources */,
+				C5D02B492109606F009C9EE8 /* QIYIHeartView.m in Sources */,
 				C5F8AC6420E5DABB00C4D331 /* HAppInfo.m in Sources */,
+				C5D02B3821095E6D009C9EE8 /* QIYIGIFImageView.m in Sources */,
 				C56EB9A320E5D80400227D34 /* CALayer+Extension.m in Sources */,
 				C55BABF41FFE3A0B00D8B0D9 /* iTestDBManager.mm in Sources */,
 				C55BA5D81FFE307B00D8B0D9 /* ViewController.mm in Sources */,
@@ -600,7 +670,9 @@
 				C56EB9A220E5D80400227D34 /* UIBarButtonItem+Extension.m in Sources */,
 				C5D02B3321095D3C009C9EE8 /* HNavigationController.m in Sources */,
 				C5F8AC6C20E5DB5900C4D331 /* Reachability.m in Sources */,
+				C5D02B4E2109606F009C9EE8 /* QIYIScanQRCodeViewController.m in Sources */,
 				C55BA5D51FFE307B00D8B0D9 /* AppDelegate.m in Sources */,
+				C5D02B4A2109606F009C9EE8 /* NNLHashids.m in Sources */,
 				C56EB96A20E5D73900227D34 /* HNewRecordingViewController.m in Sources */,
 				C56EB97B20E5D7AF00227D34 /* AVSEAddMusicCommand.m in Sources */,
 				C56EB98020E5D7AF00227D34 /* AVSEAddWatermarkCommand.m in Sources */,

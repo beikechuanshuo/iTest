@@ -12,7 +12,7 @@
 
 @end
 
-@implementation QIYINavigationController
+@implementation HNavigationController
 
 - (id)initWithRootViewController:(UIViewController *)rootViewController
 {
@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad
 {
-    __weak QIYINavigationController *weakSelf = self;
+    __weak HNavigationController *weakSelf = self;
     
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
     {
